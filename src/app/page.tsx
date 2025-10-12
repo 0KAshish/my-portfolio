@@ -1,9 +1,9 @@
-export default function Home() {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <h1 className="text-5xl font-bold text-blue-600">
-        Hello Tailwind + Next.js 🚀
-      </h1>
+import Hero from '@/components/Hero'
+
+export default function Home(){
+  return(
+    <div>
+      <Hero/>
     </div>
   )
 }
