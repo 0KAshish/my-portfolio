@@ -1,9 +1,10 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
   return (
     <section className="bg-gray-50 dark:bg-gray-900">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-around py-20 border-red-300">
         
         {/* Left Content */}
         <div className="text-center md:text-left md:w-1/2 space-y-6">
@@ -33,10 +34,12 @@ export default function Hero() {
 
         {/* Right Content: Hero Image */}
         <div className="mt-10 md:mt-0 md:w-1/2 flex justify-center">
-          <img
-            src="https://avatars.githubusercontent.com/u/79804607?v=4"
+          <Image
+            src="/images/hero.jpg"
             alt="Developer Illustration"
-            className="w-80 md:w-[400px] drop-shadow-lg"
+            width={800}
+            height={800}
+            className="w-80 md:w-[400px] drop-shadow-lg rounded"
           />
         </div>
       </div>

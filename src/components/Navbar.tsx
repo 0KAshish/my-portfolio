@@ -22,13 +22,13 @@ export default function Navbar() {
             <Link href="/" className="hover:text-gray-200">
               Home
             </Link>
-            <Link href="/about" className="hover:text-gray-200">
+            <Link href="#about" className="hover:text-gray-200">
               About
             </Link>
-            <Link href="/projects" className="hover:text-gray-200">
+            <Link href="#projects" className="hover:text-gray-200">
               Projects
             </Link>
-            <Link href="/contact" className="hover:text-gray-200">
+            <Link href="#contact" className="hover:text-gray-200">
               Contact
             </Link>
           </div>
@@ -50,13 +50,13 @@ export default function Navbar() {
           <Link href="/" className="block hover:text-gray-200">
             Home
           </Link>
-          <Link href="/about" className="block hover:text-gray-200">
+          <Link href="#about" className="block hover:text-gray-200">
             About
           </Link>
-          <Link href="/projects" className="block hover:text-gray-200">
+          <Link href="#projects" className="block hover:text-gray-200">
             Projects
           </Link>
-          <Link href="/contact" className="block hover:text-gray-200">
+          <Link href="#contact" className="block hover:text-gray-200">
             Contact
           </Link>
         </div>
