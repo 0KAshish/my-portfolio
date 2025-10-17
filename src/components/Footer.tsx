@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="text-center md:text-left">
           <h3 className="text-xl font-semibold text-white">Ashish Kumar</h3>
           <p className="text-sm text-gray-400 mt-1">
-            © {new Date().getFullYear()} All rights reserved.
+            &copy; {new Date().getFullYear()} All rights reserved.
           </p>
         </div>
 
@@ -23,7 +23,7 @@ export default function Footer() {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/ashish-kumar-maurya-99626516b/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-brand transition"
@@ -31,7 +31,7 @@ export default function Footer() {
             <FaLinkedin />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://x.com/001Ashishkumar"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-brand transition"
